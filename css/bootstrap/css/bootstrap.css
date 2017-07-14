@@ -1123,9 +1123,12 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  max-width: 20%;
+
   height: auto;
+    border-radius: 100%
 }
+
 .img-rounded {
   border-radius: 6px;
 }
@@ -1144,6 +1147,7 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+  max-width: 20%
 }
 hr {
   margin-top: 20px;
