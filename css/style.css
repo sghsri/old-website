@@ -94,7 +94,7 @@ hr.line:after {
   color: white;
 }
 hr.line-primary {
-  border-color: #2C3E50;
+  border-color: #2C3E50; 
 }
 hr.line-primary:after {
   background-color: white;
