@@ -32,7 +32,10 @@ h6 {
 }
 
 
-
+.contact{
+  color: white;
+  background: url(../img/01.jpg) no-repeat center;
+}
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -155,7 +158,7 @@ header .intro-text .skills {
 
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: none;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
