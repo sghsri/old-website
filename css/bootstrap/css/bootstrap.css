@@ -242,6 +242,7 @@ th {
   h3 {
     page-break-after: avoid;
   }
+
   .navbar {
     display: none;
   }
@@ -1119,7 +1120,7 @@ figure {
 img {
   vertical-align: middle;
 }
-.img-responsive,
+.img-profile,
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
@@ -1129,6 +1130,15 @@ img {
 
   height: auto;
     border-radius: 100% 
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .img-rounded {
@@ -1276,7 +1286,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 27px;
 }
 h3,
 .h3 {
@@ -1288,7 +1298,7 @@ h4,
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 16px;
 }
 h6,
 .h6 {
