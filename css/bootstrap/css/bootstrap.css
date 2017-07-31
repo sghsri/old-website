@@ -3079,6 +3079,7 @@ fieldset[disabled] a.btn {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
+  font-size: 20px;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -5895,6 +5896,7 @@ button.close {
   display: none;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
+  margin: 45px;
   outline: 0;
 }
 .modal.fade .modal-dialog {
