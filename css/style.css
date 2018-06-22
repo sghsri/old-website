@@ -108,9 +108,9 @@ hr.line-primary:after {
 }
 header {
 text-align: center;
-background: url(../img/01.jpg) no-repeat center top;
-
-  color: white;
+background: url(../img/01.jpg) no-repeat center;
+background-size: cover;
+color: white;
 }
 
 header .container {
